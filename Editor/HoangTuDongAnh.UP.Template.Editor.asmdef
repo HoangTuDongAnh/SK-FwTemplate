@@ -1,0 +1,12 @@
+{
+    "name": "HoangTuDongAnh.UP.Template.Editor",
+    "rootNamespace": "HoangTuDongAnh.UP.Template.Editor",
+    "references": [
+        "HoangTuDongAnh.UP.Template" 
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

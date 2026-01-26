@@ -1,0 +1,30 @@
+{
+  "name": "com.hoangtudonganh.up-name",
+  "version": "0.0.1",
+  "displayName": "HTDA – UP <DisplayName>",
+  "description": "A robust starter template for creating Unity Packages in the HoangTuDongAnh ecosystem.",
+  "unity": "6000.0",
+  "unityRelease": "0f1",
+  "documentationUrl": "https://github.com/HoangTuDongAnh/UP-Template",
+  "changelogUrl": "https://github.com/HoangTuDongAnh/UP-Template/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/HoangTuDongAnh/UP-Template/blob/main/LICENSE.md",
+  "license": "MIT",
+  "author": {
+    "name": "HoangTuDongAnh",
+    "email": "hoangnguyen72.dev@gmail.com",
+    "url": "https://github.com/HoangTuDongAnh"
+  },
+  "keywords": [
+    "hoangtudonganh",
+    "unity",
+    "upm",
+    "package",
+    "template",
+    "starter",
+    "boilerplate"
+  ],
+  "categories": [
+    "Tools"
+  ],
+  "dependencies": {}
+}
