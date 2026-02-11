@@ -40,13 +40,13 @@ def replace_in_file(path, mapping):
 
 def main():
     clear()
-    print("=== HTDA - UNITY PACKAGE SETUP WIZARD ===\n")
+    print("=== UP PACKAGE SETUP WIZARD ===\n")
 
     # 1. Gather Information
     # Example: "audio" -> becomes "com.hoangtudonganh.up-audio"
     short_name = ask("Package Name (short, lowercase, e.g., 'audio', 'core')").lower()
     
-    # Example: "Audio System" -> becomes "HTDA – UP Audio System"
+    # Example: "Audio System" -> becomes "UP Audio System"
     display_name = ask("Display Name (e.g., 'Audio System')")
     
     desc = ask("Description (optional)", required=False)
@@ -83,7 +83,10 @@ def main():
 
             # Update fields
             data["name"] = f"com.hoangtudonganh.up-{short_name}"
-            data["displayName"] = f"HTDA – UP {display_name}"
+            
+            # --- THAY ĐỔI Ở ĐÂY: Bỏ "HTDA – " ---
+            data["displayName"] = f"UP {display_name}" 
+            
             if desc:
                 data["description"] = desc
             
@@ -139,7 +142,8 @@ def main():
                     print(f"   [!] Rename error for {file}: {e}")
 
     # --- FINISH ---
-    print(f"\nSUCCESS: HTDA – UP {display_name} is ready!")
+    # --- THAY ĐỔI Ở ĐÂY: Cập nhật thông báo ---
+    print(f"\nSUCCESS: UP {display_name} is ready!") 
     print(f"Namespace: HoangTuDongAnh.UP.{pascal_name}")
 
     # Self-destruct option
