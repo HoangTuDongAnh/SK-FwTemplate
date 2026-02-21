@@ -1,30 +1,21 @@
 {
-  "name": "com.hoangtudonganh.up-name",
-  "version": "0.0.1",
-  "displayName": "HTDA – UP <DisplayName>",
-  "description": "A robust starter template for creating Unity Packages in the HoangTuDongAnh ecosystem.",
-  "unity": "6000.0",
-  "unityRelease": "0f1",
-  "documentationUrl": "https://github.com/HoangTuDongAnh/UP-Template",
-  "changelogUrl": "https://github.com/HoangTuDongAnh/UP-Template/blob/main/CHANGELOG.md",
-  "licensesUrl": "https://github.com/HoangTuDongAnh/UP-Template/blob/main/LICENSE.md",
-  "license": "MIT",
+  "name": "com.htda.framework.template",
+  "version": "0.1.0",
+  "displayName": "HTDA Framework – Template",
+  "description": "Template package for HTDA Framework modules (runtime/editor/tests/docs). Run Tools/setup_wizard.py to initialize.",
+  "unity": "2022.3",
   "author": {
-    "name": "HoangTuDongAnh",
-    "email": "hoangnguyen72.dev@gmail.com",
-    "url": "https://github.com/HoangTuDongAnh"
+    "name": "HTDA",
+    "url": "https://github.com/<YOUR_ORG>"
   },
   "keywords": [
-    "hoangtudonganh",
-    "unity",
-    "upm",
-    "package",
+    "htda",
+    "framework",
     "template",
-    "starter",
-    "boilerplate"
+    "upm"
   ],
-  "categories": [
-    "Tools"
-  ],
+  "documentationUrl": "https://github.com/<YOUR_ORG>/HTDA-Framework-Template",
+  "changelogUrl": "https://github.com/<YOUR_ORG>/HTDA-Framework-Template/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/<YOUR_ORG>/HTDA-Framework-Template/blob/main/LICENSE.md",
   "dependencies": {}
 }
