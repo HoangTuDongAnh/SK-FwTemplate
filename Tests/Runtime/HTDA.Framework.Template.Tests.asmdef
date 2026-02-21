@@ -1,0 +1,16 @@
+{
+  "name": "HTDA.Framework.Template.Tests",
+  "rootNamespace": "HTDA.Framework.Template.Tests",
+  "references": [
+    "HTDA.Framework.Template"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

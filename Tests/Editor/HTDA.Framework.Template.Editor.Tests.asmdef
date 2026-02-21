@@ -1,0 +1,19 @@
+{
+  "name": "HTDA.Framework.Template.Editor.Tests",
+  "rootNamespace": "HTDA.Framework.Template.Editor.Tests",
+  "references": [
+    "HTDA.Framework.Template",
+    "HTDA.Framework.Template.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
