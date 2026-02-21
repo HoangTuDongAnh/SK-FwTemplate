@@ -1,0 +1,14 @@
+{
+  "name": "HTDA.Framework.Template",
+  "rootNamespace": "HTDA.Framework.Template",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
